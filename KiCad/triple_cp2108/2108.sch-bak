@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -14,20 +14,69 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Samacsys:CP2108-B03-GMR IC?
+L Samacsys:CP2108-B03-GMR IC1
 U 1 1 5FEF563A
-P 4700 2750
-F 0 "IC?" H 6944 1996 50  0000 L CNN
-F 1 "CP2108-B03-GMR" H 6944 1905 50  0000 L CNN
-F 2 "QFN50P900X900X90-65N-D" H 6750 3250 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf" H 6750 3150 50  0001 L CNN
-F 4 "SILICON LABS - CP2108-B03-GMR - Interface Bridges, USB to UART, 3 V, 3.6 V, QFN-EP, 64 Pins, -40 C" H 6750 3050 50  0001 L CNN "Description"
-F 5 "0.9" H 6750 2950 50  0001 L CNN "Height"
-F 6 "634-CP2108-B03-GMR" H 6750 2850 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2108-B03-GMR?qs=wd5RIQLrsJhyaTycraVyrA%3D%3D" H 6750 2750 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Silicon Labs" H 6750 2650 50  0001 L CNN "Manufacturer_Name"
-F 9 "CP2108-B03-GMR" H 6750 2550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4700 2750
+P 1900 2500
+AR Path="/5FEF445C/5FEF563A" Ref="IC1"  Part="1" 
+AR Path="/5FEFA5BE/5FEF563A" Ref="IC2"  Part="1" 
+F 0 "IC1" H 4144 1746 50  0000 L CNN
+F 1 "CP2108-B03-GMR" H 4144 1655 50  0000 L CNN
+F 2 "QFN50P900X900X90-65N-D" H 3950 3000 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf" H 3950 2900 50  0001 L CNN
+F 4 "SILICON LABS - CP2108-B03-GMR - Interface Bridges, USB to UART, 3 V, 3.6 V, QFN-EP, 64 Pins, -40 C" H 3950 2800 50  0001 L CNN "Description"
+F 5 "0.9" H 3950 2700 50  0001 L CNN "Height"
+F 6 "634-CP2108-B03-GMR" H 3950 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2108-B03-GMR?qs=wd5RIQLrsJhyaTycraVyrA%3D%3D" H 3950 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Silicon Labs" H 3950 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "CP2108-B03-GMR" H 3950 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1900 2500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2400 1800 2400 1650
+Wire Wire Line
+	2500 1800 2500 1650
+Text Label 2400 1650 1    50   ~ 0
+D-
+Text Label 2500 1650 1    50   ~ 0
+D+
+Wire Wire Line
+	2600 1800 2600 1650
+Text Label 2600 1650 1    50   ~ 0
+VBUS_5V
+$Comp
+L Connector:RJ12 J?
+U 1 1 5FE61D47
+P 9500 1350
+F 0 "J?" H 9557 1917 50  0000 C CNN
+F 1 "RJ12" H 9557 1826 50  0000 C CNN
+F 2 "" V 9500 1375 50  0001 C CNN
+F 3 "~" V 9500 1375 50  0001 C CNN
+	1    9500 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 1650 8950 1650
+Text Label 8950 1650 2    50   ~ 0
+P1_6
+Wire Wire Line
+	9100 1550 8950 1550
+Text Label 8950 1550 2    50   ~ 0
+P1_5
+Wire Wire Line
+	9100 1450 8950 1450
+Text Label 8950 1450 2    50   ~ 0
+P1_4
+Wire Wire Line
+	9100 1350 8950 1350
+Text Label 8950 1350 2    50   ~ 0
+P1_3
+Wire Wire Line
+	9100 1250 8950 1250
+Text Label 8950 1250 2    50   ~ 0
+P1_2
+Wire Wire Line
+	9100 1150 8950 1150
+Text Label 8950 1150 2    50   ~ 0
+P1_1
 $EndSCHEMATC
