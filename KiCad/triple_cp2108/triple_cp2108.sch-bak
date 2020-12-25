@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -653,12 +653,6 @@ $Sheet
 S 8100 2450 550  750 
 U 5FEF445C
 F0 "2108_Block A" 50
-F1 "2108.sch" 50
-$EndSheet
-$Sheet
-S 8100 3850 550  750 
-U 5FEFA5BE
-F0 "2108_Block B" 50
 F1 "2108.sch" 50
 $EndSheet
 $EndSCHEMATC
