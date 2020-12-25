@@ -13,175 +13,391 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Samacsys:CP2108-B03-GMR IC1
-U 1 1 5FEF563A
-P 1900 2500
-AR Path="/5FEF445C/5FEF563A" Ref="IC1"  Part="1" 
-AR Path="/5FEFA5BE/5FEF563A" Ref="IC2"  Part="1" 
-F 0 "IC1" H 4144 1746 50  0000 L CNN
-F 1 "CP2108-B03-GMR" H 4144 1655 50  0000 L CNN
-F 2 "QFN50P900X900X90-65N-D" H 3950 3000 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf" H 3950 2900 50  0001 L CNN
-F 4 "SILICON LABS - CP2108-B03-GMR - Interface Bridges, USB to UART, 3 V, 3.6 V, QFN-EP, 64 Pins, -40 C" H 3950 2800 50  0001 L CNN "Description"
-F 5 "0.9" H 3950 2700 50  0001 L CNN "Height"
-F 6 "634-CP2108-B03-GMR" H 3950 2600 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2108-B03-GMR?qs=wd5RIQLrsJhyaTycraVyrA%3D%3D" H 3950 2500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Silicon Labs" H 3950 2400 50  0001 L CNN "Manufacturer_Name"
-F 9 "CP2108-B03-GMR" H 3950 2300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1900 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2400 1800 2400 1650
+	1950 1100 1950 950 
 Wire Wire Line
-	2500 1800 2500 1650
-Text Label 2400 1650 1    50   ~ 0
+	2050 1100 2050 950 
+Text Label 1950 950  1    50   ~ 0
 D-
-Text Label 2500 1650 1    50   ~ 0
+Text Label 2050 950  1    50   ~ 0
 D+
 Wire Wire Line
-	2600 1800 2600 1650
-Text Label 2600 1650 1    50   ~ 0
+	2150 1100 2150 950 
+Text Label 2150 950  1    50   ~ 0
 VBUS_5V
 $Comp
 L Connector:RJ12 J?
 U 1 1 5FE61D47
-P 10600 1100
-F 0 "J?" H 10657 1667 50  0000 C CNN
-F 1 "RJ12" H 10657 1576 50  0000 C CNN
-F 2 "" V 10600 1125 50  0001 C CNN
-F 3 "~" V 10600 1125 50  0001 C CNN
-	1    10600 1100
-	-1   0    0    1   
+P 5400 7000
+F 0 "J?" H 5457 7567 50  0000 C CNN
+F 1 "RJ12" H 5457 7476 50  0000 C CNN
+F 2 "" V 5400 7025 50  0001 C CNN
+F 3 "~" V 5400 7025 50  0001 C CNN
+	1    5400 7000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10200 1400 10050 1400
-Text Label 10050 1400 2    50   ~ 0
+	5100 6600 5100 6450
+Text Label 5000 6350 1    50   ~ 0
 P1_6
 Wire Wire Line
-	10200 1300 10050 1300
-Text Label 10050 1300 2    50   ~ 0
+	5200 6600 5200 6450
+Text Label 5100 6350 1    50   ~ 0
 P1_5
 Wire Wire Line
-	10200 1200 10050 1200
-Text Label 10050 1200 2    50   ~ 0
+	5300 6600 5300 6450
+Text Label 5200 6350 1    50   ~ 0
 P1_4
 Wire Wire Line
-	10200 1100 10050 1100
-Text Label 10050 1100 2    50   ~ 0
+	5400 6600 5400 6450
+Text Label 5300 6350 1    50   ~ 0
 P1_3
 Wire Wire Line
-	10200 1000 10050 1000
-Text Label 10050 1000 2    50   ~ 0
+	5500 6600 5500 6450
+Text Label 5400 6350 1    50   ~ 0
 P1_2
 Wire Wire Line
-	10200 900  10050 900 
-Text Label 10050 900  2    50   ~ 0
+	5600 6600 5600 6450
+Text Label 5500 6350 1    50   ~ 0
 P1_1
 $Comp
 L Connector:RJ12 J?
 U 1 1 5FE641F2
-P 10600 2150
-F 0 "J?" H 10657 2717 50  0000 C CNN
-F 1 "RJ12" H 10657 2626 50  0000 C CNN
-F 2 "" V 10600 2175 50  0001 C CNN
-F 3 "~" V 10600 2175 50  0001 C CNN
-	1    10600 2150
-	-1   0    0    1   
+P 4350 7000
+F 0 "J?" H 4407 7567 50  0000 C CNN
+F 1 "RJ12" H 4407 7476 50  0000 C CNN
+F 2 "" V 4350 7025 50  0001 C CNN
+F 3 "~" V 4350 7025 50  0001 C CNN
+	1    4350 7000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10200 2450 10050 2450
-Text Label 10050 2450 2    50   ~ 0
+	4050 6600 4050 6450
+Text Label 3950 6350 1    50   ~ 0
 P2_6
 Wire Wire Line
-	10200 2350 10050 2350
-Text Label 10050 2350 2    50   ~ 0
+	4150 6600 4150 6450
+Text Label 4050 6350 1    50   ~ 0
 P2_5
 Wire Wire Line
-	10200 2250 10050 2250
-Text Label 10050 2250 2    50   ~ 0
+	4250 6600 4250 6450
+Text Label 4150 6350 1    50   ~ 0
 P2_4
 Wire Wire Line
-	10200 2150 10050 2150
-Text Label 10050 2150 2    50   ~ 0
+	4350 6600 4350 6450
+Text Label 4250 6350 1    50   ~ 0
 P2_3
 Wire Wire Line
-	10200 2050 10050 2050
-Text Label 10050 2050 2    50   ~ 0
+	4450 6600 4450 6450
+Text Label 4350 6350 1    50   ~ 0
 P2_2
 Wire Wire Line
-	10200 1950 10050 1950
-Text Label 10050 1950 2    50   ~ 0
-P2_1
+	4550 6600 4550 6450
 $Comp
 L Connector:RJ12 J?
 U 1 1 5FE68DE0
-P 10600 3200
-F 0 "J?" H 10657 3767 50  0000 C CNN
-F 1 "RJ12" H 10657 3676 50  0000 C CNN
-F 2 "" V 10600 3225 50  0001 C CNN
-F 3 "~" V 10600 3225 50  0001 C CNN
-	1    10600 3200
-	-1   0    0    1   
+P 3300 7000
+F 0 "J?" H 3357 7567 50  0000 C CNN
+F 1 "RJ12" H 3357 7476 50  0000 C CNN
+F 2 "" V 3300 7025 50  0001 C CNN
+F 3 "~" V 3300 7025 50  0001 C CNN
+	1    3300 7000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10200 3500 10050 3500
-Text Label 10050 3500 2    50   ~ 0
+	3000 6600 3000 6450
+Text Label 2900 6350 1    50   ~ 0
 P3_6
 Wire Wire Line
-	10200 3400 10050 3400
-Text Label 10050 3400 2    50   ~ 0
+	3100 6600 3100 6450
+Text Label 3000 6350 1    50   ~ 0
 P3_5
 Wire Wire Line
-	10200 3300 10050 3300
-Text Label 10050 3300 2    50   ~ 0
+	3200 6600 3200 6450
+Text Label 3100 6350 1    50   ~ 0
 P3_4
 Wire Wire Line
-	10200 3200 10050 3200
-Text Label 10050 3200 2    50   ~ 0
+	3300 6600 3300 6450
+Text Label 3200 6350 1    50   ~ 0
 P3_3
 Wire Wire Line
-	10200 3100 10050 3100
-Text Label 10050 3100 2    50   ~ 0
+	3400 6600 3400 6450
+Text Label 3300 6350 1    50   ~ 0
 P3_2
 Wire Wire Line
-	10200 3000 10050 3000
-Text Label 10050 3000 2    50   ~ 0
+	3500 6600 3500 6450
+Text Label 3400 6350 1    50   ~ 0
 P3_1
 $Comp
 L Connector:RJ12 J?
 U 1 1 5FE68DF2
-P 10600 4250
-F 0 "J?" H 10657 4817 50  0000 C CNN
-F 1 "RJ12" H 10657 4726 50  0000 C CNN
-F 2 "" V 10600 4275 50  0001 C CNN
-F 3 "~" V 10600 4275 50  0001 C CNN
-	1    10600 4250
+P 2250 7000
+F 0 "J?" H 2307 7567 50  0000 C CNN
+F 1 "RJ12" H 2307 7476 50  0000 C CNN
+F 2 "" V 2250 7025 50  0001 C CNN
+F 3 "~" V 2250 7025 50  0001 C CNN
+	1    2250 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 6600 1950 6450
+Text Label 1850 6350 1    50   ~ 0
+P4_6
+Wire Wire Line
+	2050 6600 2050 6450
+Text Label 1950 6350 1    50   ~ 0
+P4_5
+Wire Wire Line
+	2150 6600 2150 6450
+Text Label 2050 6350 1    50   ~ 0
+P4_4
+Wire Wire Line
+	2250 6600 2250 6450
+Text Label 2150 6350 1    50   ~ 0
+P4_3
+Wire Wire Line
+	2350 6600 2350 6450
+Text Label 2250 6350 1    50   ~ 0
+P4_2
+Wire Wire Line
+	2450 6600 2450 6450
+Text Label 2350 6350 1    50   ~ 0
+P4_1
+$Comp
+L triple_cp2108_specific:SP3243 U?
+U 1 1 5FE653A5
+P 6700 1700
+F 0 "U?" H 6700 2867 50  0000 C CNN
+F 1 "SP3243" H 6700 2776 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 6700 1700 50  0001 C CNN
+F 3 "https://www.maxlinear.com/ds/sp3243e.pdf" H 6700 1700 50  0001 C CNN
+	1    6700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Samacsys:CP2108-B03-GMR IC1
+U 1 1 5FEF563A
+P 1450 1800
+AR Path="/5FEF445C/5FEF563A" Ref="IC1"  Part="1" 
+AR Path="/5FEFA5BE/5FEF563A" Ref="IC2"  Part="1" 
+F 0 "IC1" H 3694 1046 50  0000 L CNN
+F 1 "CP2108-B03-GMR" H 3694 955 50  0000 L CNN
+F 2 "QFN50P900X900X90-65N-D" H 3500 2300 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf" H 3500 2200 50  0001 L CNN
+F 4 "SILICON LABS - CP2108-B03-GMR - Interface Bridges, USB to UART, 3 V, 3.6 V, QFN-EP, 64 Pins, -40 C" H 3500 2100 50  0001 L CNN "Description"
+F 5 "0.9" H 3500 2000 50  0001 L CNN "Height"
+F 6 "634-CP2108-B03-GMR" H 3500 1900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2108-B03-GMR?qs=wd5RIQLrsJhyaTycraVyrA%3D%3D" H 3500 1800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Silicon Labs" H 3500 1700 50  0001 L CNN "Manufacturer_Name"
+F 9 "CP2108-B03-GMR" H 3500 1600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE7DCD0
+P 5800 1850
+F 0 "C?" V 5750 1700 50  0000 C CNN
+F 1 "0.1u" V 5750 2000 50  0000 C CNN
+F 2 "" H 5838 1700 50  0001 C CNN
+F 3 "~" H 5800 1850 50  0001 C CNN
+F 4 "X7R" V 5800 1850 50  0001 C CNN "Remark"
+	1    5800 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE80E78
+P 5800 2050
+F 0 "C?" V 5750 1900 50  0000 C CNN
+F 1 "0.1u" V 5750 2200 50  0000 C CNN
+F 2 "" H 5838 1900 50  0001 C CNN
+F 3 "~" H 5800 2050 50  0001 C CNN
+F 4 "X7R" V 5800 2050 50  0001 C CNN "Remark"
+	1    5800 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 1950 6050 1950
+Wire Wire Line
+	5650 1850 5550 1850
+Wire Wire Line
+	5550 1850 5550 1950
+Wire Wire Line
+	5550 2050 5650 2050
+$Comp
+L Device:C C?
+U 1 1 5FE83D1F
+P 5800 2250
+F 0 "C?" V 5750 2100 50  0000 C CNN
+F 1 "0.1u" V 5750 2400 50  0000 C CNN
+F 2 "" H 5838 2100 50  0001 C CNN
+F 3 "~" H 5800 2250 50  0001 C CNN
+F 4 "X7R" V 5800 2250 50  0001 C CNN "Remark"
+	1    5800 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 1850 5950 1850
+Wire Wire Line
+	6050 1850 6050 1950
+Wire Wire Line
+	5950 2050 6100 2050
+Wire Wire Line
+	5950 2250 6100 2250
+Wire Wire Line
+	5650 2250 5550 2250
+Wire Wire Line
+	5550 2250 5550 2350
+Wire Wire Line
+	5550 2350 6100 2350
+$Comp
+L Device:C C?
+U 1 1 5FE87E60
+P 5800 2450
+F 0 "C?" V 5750 2300 50  0000 C CNN
+F 1 "0.1u" V 5750 2600 50  0000 C CNN
+F 2 "" H 5838 2300 50  0001 C CNN
+F 3 "~" H 5800 2450 50  0001 C CNN
+F 4 "X7R" V 5800 2450 50  0001 C CNN "Remark"
+	1    5800 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 2450 6100 2450
+Wire Wire Line
+	5650 2450 5550 2450
+Wire Wire Line
+	5550 2450 5550 2550
+Wire Wire Line
+	5550 2550 6100 2550
+Wire Wire Line
+	5550 1950 5400 1950
+Wire Wire Line
+	5400 1950 5400 2000
+Connection ~ 5550 1950
+Wire Wire Line
+	5550 1950 5550 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5FE89A7B
+P 5400 2000
+F 0 "#PWR?" H 5400 1750 50  0001 C CNN
+F 1 "GND" H 5405 1827 50  0000 C CNN
+F 2 "" H 5400 2000 50  0001 C CNN
+F 3 "" H 5400 2000 50  0001 C CNN
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE8A0AA
+P 6900 3050
+F 0 "C?" H 6700 3000 50  0000 C CNN
+F 1 "0.1u" H 6700 3100 50  0000 C CNN
+F 2 "" H 6938 2900 50  0001 C CNN
+F 3 "~" H 6900 3050 50  0001 C CNN
+F 4 "X7R" V 6900 3050 50  0001 C CNN "Remark"
+	1    6900 3050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10200 4550 10050 4550
-Text Label 10050 4550 2    50   ~ 0
-P4_6
+	6900 2800 6900 2850
 Wire Wire Line
-	10200 4450 10050 4450
-Text Label 10050 4450 2    50   ~ 0
-P4_5
+	6800 2800 6800 3250
 Wire Wire Line
-	10200 4350 10050 4350
-Text Label 10050 4350 2    50   ~ 0
-P4_4
+	6800 3250 6900 3250
 Wire Wire Line
-	10200 4250 10050 4250
-Text Label 10050 4250 2    50   ~ 0
-P4_3
+	6900 3250 6900 3200
 Wire Wire Line
-	10200 4150 10050 4150
-Text Label 10050 4150 2    50   ~ 0
-P4_2
+	6900 3250 6900 3300
+Connection ~ 6900 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5FE8D9A1
+P 6900 3300
+F 0 "#PWR?" H 6900 3050 50  0001 C CNN
+F 1 "GND" H 6905 3127 50  0000 C CNN
+F 2 "" H 6900 3300 50  0001 C CNN
+F 3 "" H 6900 3300 50  0001 C CNN
+	1    6900 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 2850
 Wire Wire Line
-	10200 4050 10050 4050
-Text Label 10050 4050 2    50   ~ 0
-P4_1
+	6900 2850 6900 2900
+Wire Wire Line
+	6900 2850 7400 2850
+NoConn ~ 7300 2150
+Wire Wire Line
+	7400 2250 7300 2250
+Wire Wire Line
+	7400 2250 7400 2850
+Wire Wire Line
+	7400 2850 7500 2850
+Connection ~ 7400 2850
+Text Label 7500 2850 0    50   ~ 0
+3V3_NET
+Entry Wire Line
+	1850 6350 1950 6450
+Entry Wire Line
+	1950 6350 2050 6450
+Entry Wire Line
+	2050 6350 2150 6450
+Entry Wire Line
+	2150 6350 2250 6450
+Entry Wire Line
+	2250 6350 2350 6450
+Entry Wire Line
+	2350 6350 2450 6450
+Entry Wire Line
+	2900 6350 3000 6450
+Entry Wire Line
+	3000 6350 3100 6450
+Entry Wire Line
+	3100 6350 3200 6450
+Entry Wire Line
+	3200 6350 3300 6450
+Entry Wire Line
+	3300 6350 3400 6450
+Entry Wire Line
+	3400 6350 3500 6450
+Entry Wire Line
+	3950 6350 4050 6450
+Entry Wire Line
+	4050 6350 4150 6450
+Entry Wire Line
+	4150 6350 4250 6450
+Entry Wire Line
+	4250 6350 4350 6450
+Entry Wire Line
+	4350 6350 4450 6450
+Entry Wire Line
+	4450 6350 4550 6450
+Entry Wire Line
+	5000 6350 5100 6450
+Entry Wire Line
+	5100 6350 5200 6450
+Entry Wire Line
+	5200 6350 5300 6450
+Entry Wire Line
+	5300 6350 5400 6450
+Entry Wire Line
+	5400 6350 5500 6450
+Entry Wire Line
+	5500 6350 5600 6450
+Text Label 4450 6350 1    50   ~ 0
+P2_1
+Entry Wire Line
+	7450 1150 7350 1050
+Entry Wire Line
+	7450 1050 7350 950 
+Entry Wire Line
+	7450 950  7350 850 
+Wire Wire Line
+	7300 850  7350 850 
+Wire Bus Line
+	7450 300  7450 1400
+Wire Bus Line
+	1450 6350 5500 6350
 $EndSCHEMATC
