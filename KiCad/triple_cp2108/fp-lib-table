@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Samacsys)(type KiCad)(uri ${KIPRJMOD}/../proj_libs/SamacSys_Parts.pretty)(options "")(descr ""))
+)

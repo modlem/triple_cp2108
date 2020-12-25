@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP CP2108-B03-GMR
+D SILICON LABS - CP2108-B03-GMR - Interface Bridges, USB to UART, 3 V, 3.6 V, QFN-EP, 64 Pins, -40 C
+K
+F https://www.silabs.com/documents/public/data-sheets/cp2108-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
