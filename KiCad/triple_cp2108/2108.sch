@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
+Title "CP2108 Evaluation board"
+Date "2020-12-26"
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2083,21 +2083,6 @@ Wire Wire Line
 	1850 2000 1850 1750
 Text Label 1850 1750 1    50   ~ 0
 VDD
-Text Label 4850 2100 2    50   ~ 0
-VDD
-Wire Wire Line
-	4850 2100 4950 2100
-Text Label 5050 2100 0    50   ~ 0
-3V3_NET
-Wire Wire Line
-	4950 2100 4950 2200
-Wire Wire Line
-	4950 2200 5050 2200
-Connection ~ 4950 2100
-Wire Wire Line
-	4950 2100 5050 2100
-Text Label 5050 2200 0    50   ~ 0
-VIO
 $Comp
 L Device:C C?
 U 1 1 6022A4D0
@@ -2681,4 +2666,105 @@ Wire Wire Line
 	4200 4500 4650 4500
 Wire Wire Line
 	4950 4500 5400 4500
+Text HLabel 1100 650  0    50   Input ~ 0
+VBUS_5V
+Text Label 1300 650  0    50   ~ 0
+VBUS_5V
+Wire Wire Line
+	1300 650  1100 650 
+Text HLabel 1100 750  0    50   Input ~ 0
+D-
+Text HLabel 1100 850  0    50   Input ~ 0
+D+
+Text Label 1300 750  0    50   ~ 0
+D-
+Text Label 1300 850  0    50   ~ 0
+D+
+Wire Wire Line
+	1100 750  1300 750 
+Wire Wire Line
+	1100 850  1300 850 
+Text HLabel 1100 950  0    50   Input ~ 0
+GND
+Wire Wire Line
+	1100 950  1300 950 
+Wire Wire Line
+	1300 950  1300 1000
+$Comp
+L power:GND #PWR?
+U 1 1 609A9296
+P 1300 1000
+AR Path="/5FEF445C/609A9296" Ref="#PWR?"  Part="1" 
+AR Path="/5FEFA5BE/609A9296" Ref="#PWR?"  Part="1" 
+AR Path="/6001CD0C/609A9296" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1300 750 50  0001 C CNN
+F 1 "GND" H 1305 827 50  0000 C CNN
+F 2 "" H 1300 1000 50  0001 C CNN
+F 3 "" H 1300 1000 50  0001 C CNN
+	1    1300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2100 4950 2100
+Text Label 5050 2100 0    50   ~ 0
+3V3_NET
+Wire Wire Line
+	4950 2100 4950 2200
+Wire Wire Line
+	4950 2200 5050 2200
+Connection ~ 4950 2100
+Wire Wire Line
+	4950 2100 5050 2100
+Text Label 5050 2200 0    50   ~ 0
+VIO
+Text Label 4850 2100 2    50   ~ 0
+VDD
+Text HLabel 2100 650  0    50   Input ~ 0
+GPIO2
+Text HLabel 2100 750  0    50   Input ~ 0
+GPIO3
+Text HLabel 2100 850  0    50   Input ~ 0
+GPIO6
+Text HLabel 2100 950  0    50   Input ~ 0
+GPIO7
+Text HLabel 2100 1050 0    50   Input ~ 0
+GPIO10
+Text HLabel 2100 1150 0    50   Input ~ 0
+GPIO11
+Text HLabel 2100 1250 0    50   Input ~ 0
+GPIO14
+Text HLabel 2100 1350 0    50   Input ~ 0
+GPIO15
+Text Label 2300 650  0    50   ~ 0
+GPIO2
+Wire Wire Line
+	2300 650  2100 650 
+Text Label 2300 750  0    50   ~ 0
+GPIO3
+Text Label 2300 850  0    50   ~ 0
+GPIO6
+Wire Wire Line
+	2100 750  2300 750 
+Wire Wire Line
+	2100 850  2300 850 
+Text Label 2300 950  0    50   ~ 0
+GPIO7
+Wire Wire Line
+	2300 950  2100 950 
+Text Label 2300 1050 0    50   ~ 0
+GPIO10
+Text Label 2300 1150 0    50   ~ 0
+GPIO11
+Wire Wire Line
+	2100 1050 2300 1050
+Wire Wire Line
+	2100 1150 2300 1150
+Text Label 2300 1250 0    50   ~ 0
+GPIO14
+Text Label 2300 1350 0    50   ~ 0
+GPIO15
+Wire Wire Line
+	2100 1250 2300 1250
+Wire Wire Line
+	2100 1350 2300 1350
 $EndSCHEMATC
