@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -650,15 +650,21 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 8100 2450 550  750 
+S 8300 1450 550  750 
 U 5FEF445C
 F0 "2108_Block A" 50
 F1 "2108.sch" 50
 $EndSheet
 $Sheet
-S 8100 3850 550  750 
+S 8300 2850 550  750 
 U 5FEFA5BE
 F0 "2108_Block B" 50
+F1 "2108.sch" 50
+$EndSheet
+$Sheet
+S 8300 4250 550  750 
+U 6001CD0C
+F0 "2108_Block C" 50
 F1 "2108.sch" 50
 $EndSheet
 $EndSCHEMATC
