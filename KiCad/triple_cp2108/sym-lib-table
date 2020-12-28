@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name Samacsys)(type Legacy)(uri ${KIPRJMOD}/../proj_libs/SamacSys_Parts.lib)(options "")(descr ""))
-  (lib (name triple_cp2108_specific)(type Legacy)(uri D:/triple_cp2108/triple_cp2108/KiCad/proj_libs/triple_cp2108_specific.lib)(options "")(descr ""))
+  (lib (name triple_cp2108_specific)(type Legacy)(uri ${KIPRJMOD}/../proj_libs/triple_cp2108_specific.lib)(options "")(descr ""))
 )
