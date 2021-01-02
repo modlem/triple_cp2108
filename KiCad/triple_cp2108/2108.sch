@@ -1037,9 +1037,11 @@ AR Path="/5FEFA5BE/603076DE" Ref="C35"  Part="1"
 AR Path="/6001CD0C/603076DE" Ref="C64"  Part="1" 
 F 0 "C93" H 10000 2900 50  0000 C CNN
 F 1 "0.1u" H 10000 3000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 10238 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10238 2800 50  0001 C CNN
 F 3 "~" H 10200 2950 50  0001 C CNN
 F 4 "X7R" V 10200 2950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 10200 2950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 10200 2950 50  0001 C CNN "Mouser Price/Stock"
 	1    10200 2950
 	-1   0    0    1   
 $EndComp
@@ -1174,9 +1176,11 @@ AR Path="/5FEFA5BE/60307724" Ref="C30"  Part="1"
 AR Path="/6001CD0C/60307724" Ref="C59"  Part="1" 
 F 0 "C88" V 9050 2200 50  0000 C CNN
 F 1 "0.1u" V 9050 2500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 2200 50  0001 C CNN
 F 3 "~" H 9100 2350 50  0001 C CNN
 F 4 "X7R" V 9100 2350 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 2350 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 2350
 	0    1    1    0   
 $EndComp
@@ -1203,9 +1207,11 @@ AR Path="/5FEFA5BE/60307732" Ref="C29"  Part="1"
 AR Path="/6001CD0C/60307732" Ref="C58"  Part="1" 
 F 0 "C87" V 9050 2000 50  0000 C CNN
 F 1 "0.1u" V 9050 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 2000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 2000 50  0001 C CNN
 F 3 "~" H 9100 2150 50  0001 C CNN
 F 4 "X7R" V 9100 2150 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 2150 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 2150
 	0    1    1    0   
 $EndComp
@@ -1226,9 +1232,11 @@ AR Path="/5FEFA5BE/6030773D" Ref="C28"  Part="1"
 AR Path="/6001CD0C/6030773D" Ref="C57"  Part="1" 
 F 0 "C86" V 9050 1800 50  0000 C CNN
 F 1 "0.1u" V 9050 2100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 1800 50  0001 C CNN
 F 3 "~" H 9100 1950 50  0001 C CNN
 F 4 "X7R" V 9100 1950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 1950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 1950 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 1950
 	0    1    1    0   
 $EndComp
@@ -1241,9 +1249,11 @@ AR Path="/5FEFA5BE/60307744" Ref="C27"  Part="1"
 AR Path="/6001CD0C/60307744" Ref="C56"  Part="1" 
 F 0 "C85" V 9050 1600 50  0000 C CNN
 F 1 "0.1u" V 9050 1900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 1600 50  0001 C CNN
 F 3 "~" H 9100 1750 50  0001 C CNN
 F 4 "X7R" V 9100 1750 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 1750 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 1750
 	0    1    1    0   
 $EndComp
@@ -1272,9 +1282,11 @@ AR Path="/5FEFA5BE/6033DA7E" Ref="C26"  Part="1"
 AR Path="/6001CD0C/6033DA7E" Ref="C55"  Part="1" 
 F 0 "C84" H 7300 5900 50  0000 C CNN
 F 1 "0.1u" H 7300 6000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 7538 5800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7538 5800 50  0001 C CNN
 F 3 "~" H 7500 5950 50  0001 C CNN
 F 4 "X7R" V 7500 5950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 7500 5950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 7500 5950 50  0001 C CNN "Mouser Price/Stock"
 	1    7500 5950
 	-1   0    0    1   
 $EndComp
@@ -1324,9 +1336,11 @@ AR Path="/5FEFA5BE/6033DAF8" Ref="C36"  Part="1"
 AR Path="/6001CD0C/6033DAF8" Ref="C65"  Part="1" 
 F 0 "C94" H 10000 5900 50  0000 C CNN
 F 1 "0.1u" H 10000 6000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 10238 5800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10238 5800 50  0001 C CNN
 F 3 "~" H 10200 5950 50  0001 C CNN
 F 4 "X7R" V 10200 5950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 10200 5950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 10200 5950 50  0001 C CNN "Mouser Price/Stock"
 	1    10200 5950
 	-1   0    0    1   
 $EndComp
@@ -1461,9 +1475,11 @@ AR Path="/5FEFA5BE/6033DB3E" Ref="C34"  Part="1"
 AR Path="/6001CD0C/6033DB3E" Ref="C63"  Part="1" 
 F 0 "C92" V 9050 5200 50  0000 C CNN
 F 1 "0.1u" V 9050 5500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 5200 50  0001 C CNN
 F 3 "~" H 9100 5350 50  0001 C CNN
 F 4 "X7R" V 9100 5350 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 5350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 5350 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 5350
 	0    1    1    0   
 $EndComp
@@ -1490,9 +1506,11 @@ AR Path="/5FEFA5BE/6033DB4C" Ref="C33"  Part="1"
 AR Path="/6001CD0C/6033DB4C" Ref="C62"  Part="1" 
 F 0 "C91" V 9050 5000 50  0000 C CNN
 F 1 "0.1u" V 9050 5300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 5000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 5000 50  0001 C CNN
 F 3 "~" H 9100 5150 50  0001 C CNN
 F 4 "X7R" V 9100 5150 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 5150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 5150 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 5150
 	0    1    1    0   
 $EndComp
@@ -1513,9 +1531,11 @@ AR Path="/5FEFA5BE/6033DB57" Ref="C32"  Part="1"
 AR Path="/6001CD0C/6033DB57" Ref="C61"  Part="1" 
 F 0 "C90" V 9050 4800 50  0000 C CNN
 F 1 "0.1u" V 9050 5100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 4800 50  0001 C CNN
 F 3 "~" H 9100 4950 50  0001 C CNN
 F 4 "X7R" V 9100 4950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 4950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 4950 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 4950
 	0    1    1    0   
 $EndComp
@@ -1528,9 +1548,11 @@ AR Path="/5FEFA5BE/6033DB5E" Ref="C31"  Part="1"
 AR Path="/6001CD0C/6033DB5E" Ref="C60"  Part="1" 
 F 0 "C89" V 9050 4600 50  0000 C CNN
 F 1 "0.1u" V 9050 4900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 9138 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9138 4600 50  0001 C CNN
 F 3 "~" H 9100 4750 50  0001 C CNN
 F 4 "X7R" V 9100 4750 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 9100 4750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 4750 50  0001 C CNN "Mouser Price/Stock"
 	1    9100 4750
 	0    1    1    0   
 $EndComp
@@ -1656,9 +1678,11 @@ AR Path="/5FEFA5BE/6022A4D0" Ref="C8"  Part="1"
 AR Path="/6001CD0C/6022A4D0" Ref="C37"  Part="1" 
 F 0 "C66" V 3400 500 50  0000 C CNN
 F 1 "0.1u" V 3400 800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 3488 500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3488 500 50  0001 C CNN
 F 3 "~" H 3450 650 50  0001 C CNN
 F 4 "X7R" V 3450 650 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 3450 650 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 3450 650 50  0001 C CNN "Mouser Price/Stock"
 	1    3450 650 
 	0    1    1    0   
 $EndComp
@@ -1671,7 +1695,7 @@ AR Path="/5FEFA5BE/6022A816" Ref="C9"  Part="1"
 AR Path="/6001CD0C/6022A816" Ref="C38"  Part="1" 
 F 0 "C67" V 3400 750 50  0000 C CNN
 F 1 "4.7u" V 3400 1050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 3488 750 50  0001 C CNN
+F 2 "" H 3488 750 50  0001 C CNN
 F 3 "~" H 3450 900 50  0001 C CNN
 F 4 "X5R" V 3450 900 50  0001 C CNN "Remark"
 	1    3450 900 
@@ -1711,9 +1735,11 @@ AR Path="/5FEFA5BE/6030C758" Ref="C10"  Part="1"
 AR Path="/6001CD0C/6030C758" Ref="C39"  Part="1" 
 F 0 "C68" V 3400 1150 50  0000 C CNN
 F 1 "0.1u" V 3400 1450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 3488 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3488 1150 50  0001 C CNN
 F 3 "~" H 3450 1300 50  0001 C CNN
 F 4 "X7R" V 3450 1300 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 3450 1300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 3450 1300 50  0001 C CNN "Mouser Price/Stock"
 	1    3450 1300
 	0    1    1    0   
 $EndComp
@@ -1726,7 +1752,7 @@ AR Path="/5FEFA5BE/6030C75F" Ref="C11"  Part="1"
 AR Path="/6001CD0C/6030C75F" Ref="C40"  Part="1" 
 F 0 "C69" V 3400 1400 50  0000 C CNN
 F 1 "4.7u" V 3400 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 3488 1400 50  0001 C CNN
+F 2 "" H 3488 1400 50  0001 C CNN
 F 3 "~" H 3450 1550 50  0001 C CNN
 F 4 "X5R" V 3450 1550 50  0001 C CNN "Remark"
 	1    3450 1550
@@ -1775,9 +1801,11 @@ AR Path="/5FEFA5BE/60333EDC" Ref="C12"  Part="1"
 AR Path="/6001CD0C/60333EDC" Ref="C41"  Part="1" 
 F 0 "C70" V 5200 500 50  0000 C CNN
 F 1 "0.1u" V 5200 800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 5288 500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5288 500 50  0001 C CNN
 F 3 "~" H 5250 650 50  0001 C CNN
 F 4 "X7R" V 5250 650 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 5250 650 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 5250 650 50  0001 C CNN "Mouser Price/Stock"
 	1    5250 650 
 	0    1    1    0   
 $EndComp
@@ -1790,7 +1818,7 @@ AR Path="/5FEFA5BE/60333EE3" Ref="C13"  Part="1"
 AR Path="/6001CD0C/60333EE3" Ref="C42"  Part="1" 
 F 0 "C71" V 5200 750 50  0000 C CNN
 F 1 "4.7u" V 5200 1050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 5288 750 50  0001 C CNN
+F 2 "" H 5288 750 50  0001 C CNN
 F 3 "~" H 5250 900 50  0001 C CNN
 F 4 "X5R" V 5250 900 50  0001 C CNN "Remark"
 	1    5250 900 
@@ -1839,9 +1867,11 @@ AR Path="/5FEFA5BE/6035DF81" Ref="C14"  Part="1"
 AR Path="/6001CD0C/6035DF81" Ref="C43"  Part="1" 
 F 0 "C72" V 4250 500 50  0000 C CNN
 F 1 "0.1u" V 4250 800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 4338 500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4338 500 50  0001 C CNN
 F 3 "~" H 4300 650 50  0001 C CNN
 F 4 "X7R" V 4300 650 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 4300 650 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 4300 650 50  0001 C CNN "Mouser Price/Stock"
 	1    4300 650 
 	0    1    1    0   
 $EndComp
@@ -1890,9 +1920,11 @@ AR Path="/5FEFA5BE/603DE4F6" Ref="C15"  Part="1"
 AR Path="/6001CD0C/603DE4F6" Ref="C44"  Part="1" 
 F 0 "C73" V 4250 900 50  0000 C CNN
 F 1 "0.1u" V 4250 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 4338 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4338 900 50  0001 C CNN
 F 3 "~" H 4300 1050 50  0001 C CNN
 F 4 "X7R" V 4300 1050 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 4300 1050 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 4300 1050 50  0001 C CNN "Mouser Price/Stock"
 	1    4300 1050
 	0    1    1    0   
 $EndComp
@@ -1927,9 +1959,11 @@ AR Path="/5FEFA5BE/60409147" Ref="C16"  Part="1"
 AR Path="/6001CD0C/60409147" Ref="C45"  Part="1" 
 F 0 "C74" V 4250 1300 50  0000 C CNN
 F 1 "0.1u" V 4250 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 4338 1300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4338 1300 50  0001 C CNN
 F 3 "~" H 4300 1450 50  0001 C CNN
 F 4 "X7R" V 4300 1450 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 4300 1450 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 4300 1450 50  0001 C CNN "Mouser Price/Stock"
 	1    4300 1450
 	0    1    1    0   
 $EndComp
@@ -1964,8 +1998,12 @@ AR Path="/5FEFA5BE/604BE5D8" Ref="D3"  Part="1"
 AR Path="/6001CD0C/604BE5D8" Ref="D11"  Part="1" 
 F 0 "D19" H 4450 1950 50  0000 C CNN
 F 1 "RED" H 4750 1950 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 1900 50  0001 C CNN
-F 3 "~" H 4600 1900 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KRKT-5A_C157741.pdf" H 4600 1900 50  0001 C CNN
+F 4 "LTST-C193KRKT-5A" H 4600 1900 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 1900 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KRKT-5A" H 4600 1900 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578730" H 4600 1900 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 1900
 	1    0    0    -1  
 $EndComp
@@ -2000,8 +2038,12 @@ AR Path="/5FEFA5BE/60572F17" Ref="D4"  Part="1"
 AR Path="/6001CD0C/60572F17" Ref="D12"  Part="1" 
 F 0 "D20" H 4450 2100 50  0000 C CNN
 F 1 "GREEN" H 4800 2100 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2050 50  0001 C CNN
-F 3 "~" H 4600 2050 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KGKT-5A_C125102.pdf" H 4600 2050 50  0001 C CNN
+F 4 "LTST-C193KGKT-5A" H 4600 2050 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2050 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KGKT-5A" H 4600 2050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578641" H 4600 2050 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2050
 	1    0    0    -1  
 $EndComp
@@ -2040,8 +2082,12 @@ AR Path="/5FEFA5BE/6062BE1A" Ref="D5"  Part="1"
 AR Path="/6001CD0C/6062BE1A" Ref="D13"  Part="1" 
 F 0 "D21" H 4450 2250 50  0000 C CNN
 F 1 "RED" H 4750 2250 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2200 50  0001 C CNN
-F 3 "~" H 4600 2200 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KRKT-5A_C157741.pdf" H 4600 2200 50  0001 C CNN
+F 4 "LTST-C193KRKT-5A" H 4600 2200 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2200 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KRKT-5A" H 4600 2200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578730" H 4600 2200 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2200
 	1    0    0    -1  
 $EndComp
@@ -2076,8 +2122,12 @@ AR Path="/5FEFA5BE/6062BE2A" Ref="D6"  Part="1"
 AR Path="/6001CD0C/6062BE2A" Ref="D14"  Part="1" 
 F 0 "D22" H 4450 2400 50  0000 C CNN
 F 1 "GREEN" H 4800 2400 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2350 50  0001 C CNN
-F 3 "~" H 4600 2350 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KGKT-5A_C125102.pdf" H 4600 2350 50  0001 C CNN
+F 4 "LTST-C193KGKT-5A" H 4600 2350 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2350 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KGKT-5A" H 4600 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578641" H 4600 2350 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2350
 	1    0    0    -1  
 $EndComp
@@ -2116,8 +2166,12 @@ AR Path="/5FEFA5BE/6065BC2A" Ref="D7"  Part="1"
 AR Path="/6001CD0C/6065BC2A" Ref="D15"  Part="1" 
 F 0 "D23" H 4450 2550 50  0000 C CNN
 F 1 "RED" H 4750 2550 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2500 50  0001 C CNN
-F 3 "~" H 4600 2500 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KRKT-5A_C157741.pdf" H 4600 2500 50  0001 C CNN
+F 4 "LTST-C193KRKT-5A" H 4600 2500 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2500 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KRKT-5A" H 4600 2500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578730" H 4600 2500 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2500
 	1    0    0    -1  
 $EndComp
@@ -2152,8 +2206,12 @@ AR Path="/5FEFA5BE/6065BC3A" Ref="D8"  Part="1"
 AR Path="/6001CD0C/6065BC3A" Ref="D16"  Part="1" 
 F 0 "D24" H 4450 2700 50  0000 C CNN
 F 1 "GREEN" H 4800 2700 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2650 50  0001 C CNN
-F 3 "~" H 4600 2650 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KGKT-5A_C125102.pdf" H 4600 2650 50  0001 C CNN
+F 4 "LTST-C193KGKT-5A" H 4600 2650 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2650 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KGKT-5A" H 4600 2650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578641" H 4600 2650 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2650
 	1    0    0    -1  
 $EndComp
@@ -2192,8 +2250,12 @@ AR Path="/5FEFA5BE/6068CF41" Ref="D9"  Part="1"
 AR Path="/6001CD0C/6068CF41" Ref="D17"  Part="1" 
 F 0 "D25" H 4450 2850 50  0000 C CNN
 F 1 "RED" H 4750 2850 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2800 50  0001 C CNN
-F 3 "~" H 4600 2800 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KRKT-5A_C157741.pdf" H 4600 2800 50  0001 C CNN
+F 4 "LTST-C193KRKT-5A" H 4600 2800 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KRKT-5A" H 4600 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578730" H 4600 2800 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2800
 	1    0    0    -1  
 $EndComp
@@ -2228,8 +2290,12 @@ AR Path="/5FEFA5BE/6068CF51" Ref="D10"  Part="1"
 AR Path="/6001CD0C/6068CF51" Ref="D18"  Part="1" 
 F 0 "D26" H 4450 3000 50  0000 C CNN
 F 1 "GREEN" H 4800 3000 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 4600 2950 50  0001 C CNN
-F 3 "~" H 4600 2950 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4600 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Lite-On-LTST-C193KGKT-5A_C125102.pdf" H 4600 2950 50  0001 C CNN
+F 4 "LTST-C193KGKT-5A" H 4600 2950 50  0001 C CNN "Description"
+F 5 "Lite-On" H 4600 2950 50  0001 C CNN "Manufacturer_Name"
+F 6 "LTST-C193KGKT-5A" H 4600 2950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.eleparts.co.kr/goods/view?no=7578641" H 4600 2950 50  0001 C CNN "Mouser Price/Stock"
 	1    4600 2950
 	1    0    0    -1  
 $EndComp
@@ -2515,9 +2581,11 @@ AR Path="/5FEFA5BE/6033DAE4" Ref="C21"  Part="1"
 AR Path="/6001CD0C/6033DAE4" Ref="C50"  Part="1" 
 F 0 "C79" V 6350 4600 50  0000 C CNN
 F 1 "0.1u" V 6350 4900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 4600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 4600 50  0001 C CNN
 F 3 "~" H 6400 4750 50  0001 C CNN
 F 4 "X7R" V 6400 4750 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 4750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 4750 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 4750
 	0    1    1    0   
 $EndComp
@@ -2530,9 +2598,11 @@ AR Path="/5FEFA5BE/6033DADD" Ref="C22"  Part="1"
 AR Path="/6001CD0C/6033DADD" Ref="C51"  Part="1" 
 F 0 "C80" V 6350 4800 50  0000 C CNN
 F 1 "0.1u" V 6350 5100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 4800 50  0001 C CNN
 F 3 "~" H 6400 4950 50  0001 C CNN
 F 4 "X7R" V 6400 4950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 4950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 4950 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 4950
 	0    1    1    0   
 $EndComp
@@ -2553,9 +2623,11 @@ AR Path="/5FEFA5BE/6033DAD2" Ref="C23"  Part="1"
 AR Path="/6001CD0C/6033DAD2" Ref="C52"  Part="1" 
 F 0 "C81" V 6350 5000 50  0000 C CNN
 F 1 "0.1u" V 6350 5300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 5000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 5000 50  0001 C CNN
 F 3 "~" H 6400 5150 50  0001 C CNN
 F 4 "X7R" V 6400 5150 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 5150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 5150 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 5150
 	0    1    1    0   
 $EndComp
@@ -2582,9 +2654,11 @@ AR Path="/5FEFA5BE/6033DAC4" Ref="C24"  Part="1"
 AR Path="/6001CD0C/6033DAC4" Ref="C53"  Part="1" 
 F 0 "C82" V 6350 5200 50  0000 C CNN
 F 1 "0.1u" V 6350 5500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 5200 50  0001 C CNN
 F 3 "~" H 6400 5350 50  0001 C CNN
 F 4 "X7R" V 6400 5350 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 5350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 5350 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 5350
 	0    1    1    0   
 $EndComp
@@ -2726,9 +2800,11 @@ AR Path="/5FEFA5BE/5FE7DCD0" Ref="C17"  Part="1"
 AR Path="/6001CD0C/5FE7DCD0" Ref="C46"  Part="1" 
 F 0 "C75" V 6350 1600 50  0000 C CNN
 F 1 "0.1u" V 6350 1900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 1600 50  0001 C CNN
 F 3 "~" H 6400 1750 50  0001 C CNN
 F 4 "X7R" V 6400 1750 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 1750 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 1750
 	0    1    1    0   
 $EndComp
@@ -2741,9 +2817,11 @@ AR Path="/5FEFA5BE/5FE80E78" Ref="C18"  Part="1"
 AR Path="/6001CD0C/5FE80E78" Ref="C47"  Part="1" 
 F 0 "C76" V 6350 1800 50  0000 C CNN
 F 1 "0.1u" V 6350 2100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 1800 50  0001 C CNN
 F 3 "~" H 6400 1950 50  0001 C CNN
 F 4 "X7R" V 6400 1950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 1950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 1950 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 1950
 	0    1    1    0   
 $EndComp
@@ -2764,9 +2842,11 @@ AR Path="/5FEFA5BE/5FE83D1F" Ref="C19"  Part="1"
 AR Path="/6001CD0C/5FE83D1F" Ref="C48"  Part="1" 
 F 0 "C77" V 6350 2000 50  0000 C CNN
 F 1 "0.1u" V 6350 2300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 2000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 2000 50  0001 C CNN
 F 3 "~" H 6400 2150 50  0001 C CNN
 F 4 "X7R" V 6400 2150 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 2150 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 2150
 	0    1    1    0   
 $EndComp
@@ -2793,9 +2873,11 @@ AR Path="/5FEFA5BE/5FE87E60" Ref="C20"  Part="1"
 AR Path="/6001CD0C/5FE87E60" Ref="C49"  Part="1" 
 F 0 "C78" V 6350 2200 50  0000 C CNN
 F 1 "0.1u" V 6350 2500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 6438 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 2200 50  0001 C CNN
 F 3 "~" H 6400 2350 50  0001 C CNN
 F 4 "X7R" V 6400 2350 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 6400 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 6400 2350 50  0001 C CNN "Mouser Price/Stock"
 	1    6400 2350
 	0    1    1    0   
 $EndComp
@@ -2930,9 +3012,11 @@ AR Path="/5FEFA5BE/5FE8A0AA" Ref="C25"  Part="1"
 AR Path="/6001CD0C/5FE8A0AA" Ref="C54"  Part="1" 
 F 0 "C83" H 7300 2900 50  0000 C CNN
 F 1 "0.1u" H 7300 3000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric" H 7538 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7538 2800 50  0001 C CNN
 F 3 "~" H 7500 2950 50  0001 C CNN
 F 4 "X7R" V 7500 2950 50  0001 C CNN "Remark"
+F 5 "C0805C104M5RACTU" H 7500 2950 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 7500 2950 50  0001 C CNN "Mouser Price/Stock"
 	1    7500 2950
 	-1   0    0    1   
 $EndComp
