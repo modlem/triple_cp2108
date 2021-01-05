@@ -365,82 +365,10 @@ Wire Wire Line
 	3800 5850 3950 5850
 Text Label 3950 5850 0    50   ~ 0
 D+_4
-$Comp
-L Device:Crystal_Small Y1
-U 1 1 5FE8EB29
-P 1200 5450
-F 0 "Y1" H 1300 5350 50  0000 C CNN
-F 1 "24M" H 1100 5350 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 1200 5450 50  0001 C CNN
-F 3 "~" H 1200 5450 50  0001 C CNN
-F 4 "XRCGB24M000F2P02R0" H 1200 5450 50  0001 C CNN "Manufacturer_Part_Number"
-F 5 "https://www.eleparts.co.kr/goods/view?no=7918955" H 1200 5450 50  0001 C CNN "Mouser Price/Stock"
-	1    1200 5450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1400 5250 1400 5300
-Wire Wire Line
-	1500 5650 1400 5650
-Wire Wire Line
-	1400 5650 1400 5600
-$Comp
-L Device:R R1
-U 1 1 5FE92ED4
-P 1400 5450
-F 0 "R1" V 1300 5300 50  0000 L CNN
-F 1 "1M" V 1300 5500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1330 5450 50  0001 C CNN
-F 3 "~" H 1400 5450 50  0001 C CNN
-	1    1400 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 5350 1200 5250
-Wire Wire Line
-	1200 5250 1400 5250
-Connection ~ 1400 5250
-Wire Wire Line
-	1400 5650 1200 5650
-Wire Wire Line
-	1200 5650 1200 5550
-Connection ~ 1400 5650
-$Comp
-L Device:C C1
-U 1 1 5FE9A7F7
-P 900 5250
-F 0 "C1" V 800 5150 50  0000 C CNN
-F 1 "18p" V 800 5400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 938 5100 50  0001 C CNN
-F 3 "~" H 900 5250 50  0001 C CNN
-	1    900  5250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5FE9B6E0
-P 900 5650
-F 0 "C2" V 1000 5550 50  0000 C CNN
-F 1 "18p" V 1000 5800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 938 5500 50  0001 C CNN
-F 3 "~" H 900 5650 50  0001 C CNN
-	1    900  5650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1050 5650 1200 5650
-Connection ~ 1200 5650
-Wire Wire Line
-	1200 5250 1050 5250
-Connection ~ 1200 5250
 Wire Wire Line
 	750  5250 650  5250
 Wire Wire Line
 	650  5250 650  5300
-Wire Wire Line
-	750  5650 650  5650
-Wire Wire Line
-	650  5650 650  5700
 $Comp
 L power:GND #PWR01
 U 1 1 5FEA295F
@@ -452,23 +380,6 @@ F 3 "" H 650 5300 50  0001 C CNN
 	1    650  5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5FEA2CD9
-P 650 5700
-F 0 "#PWR02" H 650 5450 50  0001 C CNN
-F 1 "GND" H 655 5527 50  0000 C CNN
-F 2 "" H 650 5700 50  0001 C CNN
-F 3 "" H 650 5700 50  0001 C CNN
-	1    650  5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 5250 1600 5250
-Wire Wire Line
-	1600 5350 1500 5350
-Wire Wire Line
-	1500 5350 1500 5650
 Wire Wire Line
 	1600 5050 1450 5050
 Text Label 1450 5050 2    50   ~ 0
@@ -1253,4 +1164,93 @@ F11 "GPIO11" B R 9800 1200 50
 F12 "GPIO14" B R 9800 1300 50 
 F13 "GPIO15" B R 9800 1400 50 
 $EndSheet
+Wire Wire Line
+	1400 5250 1600 5250
+Connection ~ 1400 5250
+Wire Wire Line
+	1400 5250 1400 5300
+Wire Wire Line
+	1200 5250 1050 5250
+Wire Wire Line
+	1200 5250 1400 5250
+Connection ~ 1200 5250
+Wire Wire Line
+	1200 5350 1200 5250
+Wire Wire Line
+	1600 5350 1500 5350
+Wire Wire Line
+	1500 5350 1500 5650
+Wire Wire Line
+	650  5650 650  5700
+Wire Wire Line
+	750  5650 650  5650
+Wire Wire Line
+	1050 5650 1200 5650
+Wire Wire Line
+	1200 5650 1200 5550
+Connection ~ 1200 5650
+Wire Wire Line
+	1400 5650 1200 5650
+Wire Wire Line
+	1400 5650 1400 5600
+Connection ~ 1400 5650
+Wire Wire Line
+	1500 5650 1400 5650
+$Comp
+L power:GND #PWR02
+U 1 1 5FEA2CD9
+P 650 5700
+F 0 "#PWR02" H 650 5450 50  0001 C CNN
+F 1 "GND" H 655 5527 50  0000 C CNN
+F 2 "" H 650 5700 50  0001 C CNN
+F 3 "" H 650 5700 50  0001 C CNN
+	1    650  5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FE9B6E0
+P 900 5650
+F 0 "C2" V 1000 5550 50  0000 C CNN
+F 1 "6p" V 1000 5800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 938 5500 50  0001 C CNN
+F 3 "~" H 900 5650 50  0001 C CNN
+	1    900  5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FE9A7F7
+P 900 5250
+F 0 "C1" V 800 5150 50  0000 C CNN
+F 1 "6p" V 800 5400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 938 5100 50  0001 C CNN
+F 3 "~" H 900 5250 50  0001 C CNN
+	1    900  5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5FE8EB29
+P 1200 5450
+F 0 "Y1" H 1300 5350 50  0000 C CNN
+F 1 "24M" H 1100 5350 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 1200 5450 50  0001 C CNN
+F 3 "~" H 1200 5450 50  0001 C CNN
+F 4 "XRCGB24M000F2P00R0" H 1200 5450 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "https://www.eleparts.co.kr/goods/view?no=7918955" H 1200 5450 50  0001 C CNN "Mouser Price/Stock"
+	1    1200 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FE92ED4
+P 1400 5450
+F 0 "R1" V 1300 5300 50  0000 L CNN
+F 1 "1M" V 1300 5500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1330 5450 50  0001 C CNN
+F 3 "~" H 1400 5450 50  0001 C CNN
+	1    1400 5450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
