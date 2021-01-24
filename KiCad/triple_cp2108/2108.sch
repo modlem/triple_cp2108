@@ -1433,9 +1433,9 @@ TXD3_LED
 Text Label 2350 5150 3    50   ~ 0
 RXD3_LED
 Text Label 2050 5150 3    50   ~ 0
-TXD3_LED
+TXD4_LED
 Text Label 1750 5150 3    50   ~ 0
-RXD3_LED
+RXD4_LED
 Wire Wire Line
 	2050 5150 2050 5000
 Wire Wire Line
