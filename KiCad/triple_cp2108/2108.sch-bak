@@ -1055,24 +1055,6 @@ F 6 "https://www.eleparts.co.kr/goods/view?no=8550995" H 9100 1750 50  0001 C CN
 	1    9100 1750
 	0    1    1    0   
 $EndComp
-$Comp
-L triple_cp2108_specific:SP3243 U5
-U 1 1 6030774A
-P 10000 1600
-AR Path="/5FEF445C/6030774A" Ref="U5"  Part="1" 
-AR Path="/5FEFA5BE/6030774A" Ref="U?"  Part="1" 
-AR Path="/6001CD0C/6030774A" Ref="U?"  Part="1" 
-AR Path="/6023BA8B/6030774A" Ref="U9"  Part="1" 
-AR Path="/60246936/6030774A" Ref="U13"  Part="1" 
-F 0 "U5" H 9550 2650 50  0000 C CNN
-F 1 "SP3243" H 10350 2650 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 10000 1600 50  0001 C CNN
-F 3 "https://www.maxlinear.com/ds/sp3243e.pdf" H 10000 1600 50  0001 C CNN
-F 4 "SP3243EUEY-L/TR" H 10000 1600 50  0001 C CNN "Manufacturer_Part_Number"
-F 5 "https://lcsc.com/product-detail/RS232-ICs_MaxLinear_SP3243EUEY-L-TR_MaxLinear-SP3243EUEY-L-TR_C517952.html" H 10000 1600 50  0001 C CNN "Mouser Price/Stock"
-	1    10000 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 4850 6000 4900
 $Comp
@@ -1451,9 +1433,9 @@ TXD3_LED
 Text Label 2350 5150 3    50   ~ 0
 RXD3_LED
 Text Label 2050 5150 3    50   ~ 0
-TXD3_LED
+TXD4_LED
 Text Label 1750 5150 3    50   ~ 0
-RXD3_LED
+RXD4_LED
 Wire Wire Line
 	2050 5150 2050 5000
 Wire Wire Line
@@ -3152,4 +3134,22 @@ Text Label 4150 3350 2    50   ~ 0
 RI232_1
 Text Label 1350 5150 3    50   ~ 0
 ~SUSPEND
+$Comp
+L triple_cp2108_specific:SP3243 U5
+U 1 1 6030774A
+P 10000 1600
+AR Path="/5FEF445C/6030774A" Ref="U5"  Part="1" 
+AR Path="/5FEFA5BE/6030774A" Ref="U?"  Part="1" 
+AR Path="/6001CD0C/6030774A" Ref="U?"  Part="1" 
+AR Path="/6023BA8B/6030774A" Ref="U9"  Part="1" 
+AR Path="/60246936/6030774A" Ref="U13"  Part="1" 
+F 0 "U5" H 9550 2650 50  0000 C CNN
+F 1 "SP3243" H 10350 2650 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 10000 1600 50  0001 C CNN
+F 3 "https://www.maxlinear.com/ds/sp3243e.pdf" H 10000 1600 50  0001 C CNN
+F 4 "SP3243EUEY-L/TR" H 10000 1600 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "https://lcsc.com/product-detail/RS232-ICs_MaxLinear_SP3243EUEY-L-TR_MaxLinear-SP3243EUEY-L-TR_C517952.html" H 10000 1600 50  0001 C CNN "Mouser Price/Stock"
+	1    10000 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
